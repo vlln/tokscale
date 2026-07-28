@@ -51,6 +51,7 @@ current home directory. `**` means recursive discovery under the stated root.
 | `cline` | Cline | `~/.cline/data/sessions/**/*.messages.json` | Reads the SDK v1 messages envelope and optional root manifest workspace metadata. |
 | `commandcode` | Command Code | `~/.commandcode/projects/**/*.jsonl` with the root `config.json` | Reads usage transcripts and uses the required config dependency for model/workspace interpretation. |
 | `grok` | Grok | `~/.grok/sessions/**/updates.jsonl` with optional `summary.json` and `events.jsonl` siblings | Reads positive total-token deltas and optional session metadata. |
+| `devin` | Devin | `~/.local/share/devin/cli/sessions.db`; direct files from `scanner.extraScanPaths` | Reads SQLite with committed WAL state, extracts assistant `metadata.metrics` token buckets from `message_nodes`, and deduplicates twin nodes by `(session_id, message_id)`. |
 
 ## Scanner extensions
 

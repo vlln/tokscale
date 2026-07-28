@@ -125,7 +125,7 @@ Current catalog entries include:
 OpenCode, Claude, Codex CLI, Gemini CLI, Amp, Droid, OpenClaw,
 Pi, OMP, Kimi, Qwen CLI, Roo Code, Mux, Kilo,
 Hermes Agent, Copilot, Goose, Codebuff, CodeBuddy, Antigravity, Zed Agent,
-ZCode, Kiro, Junie, Warp, Cline, Command Code, and Grok Build.
+ZCode, Kiro, Junie, Warp, Cline, Command Code, Grok Build, and Devin.
 
 Some catalog entries have explicit boundaries:
 

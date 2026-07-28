@@ -102,7 +102,7 @@ tokscale pricing overrides --json
 
 当前 catalog 包括：
 
-OpenCode、Claude Code、Codex CLI、Gemini CLI、Amp、Droid、OpenClaw、Pi、OMP、Kimi、Qwen CLI、Roo Code、Mux、Kilo、Hermes Agent、Copilot、Goose、Codebuff、CodeBuddy、Antigravity、Zed Agent、ZCode、Kiro、Junie、Warp、Cline、Command Code 和 Grok Build。
+OpenCode、Claude Code、Codex CLI、Gemini CLI、Amp、Droid、OpenClaw、Pi、OMP、Kimi、Qwen CLI、Roo Code、Mux、Kilo、Hermes Agent、Copilot、Goose、Codebuff、CodeBuddy、Antigravity、Zed Agent、ZCode、Kiro、Junie、Warp、Cline、Command Code、Grok Build 和 Devin。
 
 部分 catalog 条目有明确边界：
 

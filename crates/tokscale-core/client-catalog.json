@@ -224,5 +224,13 @@
     "shortName": "Grok",
     "logo": "https://github.com/xai-org.png",
     "color": "#171717"
+  },
+  {
+    "variant": "Devin",
+    "id": "devin",
+    "displayName": "Devin",
+    "shortName": "Devin",
+    "logo": "https://github.com/cognition-ai.png",
+    "color": "#FF6B35"
   }
 ]

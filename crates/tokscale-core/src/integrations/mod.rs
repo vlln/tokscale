@@ -11,6 +11,7 @@ pub(crate) mod codex;
 pub(crate) mod commandcode;
 pub(crate) mod copilot;
 mod decoder;
+pub(crate) mod devin;
 pub(crate) mod discover;
 pub(crate) mod droid;
 pub(crate) mod error;
@@ -567,6 +568,7 @@ pub(crate) fn integration_for(client: ClientId) -> &'static dyn ClientIntegratio
         ClientId::Cline => &cline::INTEGRATION,
         ClientId::CommandCode => &commandcode::INTEGRATION,
         ClientId::Grok => &grok::INTEGRATION,
+        ClientId::Devin => &devin::INTEGRATION,
     }
 }
 

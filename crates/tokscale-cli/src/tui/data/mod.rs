@@ -75,8 +75,9 @@ mod tests {
             .unwrap();
         assert_eq!(clients[zed_index + 1], ClientId::Zcode);
         assert_eq!(clients[zed_index + 2], ClientId::Kiro);
-        assert_eq!(clients[clients.len() - 2], ClientId::CommandCode);
-        assert_eq!(clients.last(), Some(&ClientId::Grok));
+        assert_eq!(clients[clients.len() - 3], ClientId::CommandCode);
+        assert_eq!(clients[clients.len() - 2], ClientId::Grok);
+        assert_eq!(clients.last(), Some(&ClientId::Devin));
     }
 
     #[test]

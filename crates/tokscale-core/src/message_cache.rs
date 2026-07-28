@@ -347,6 +347,7 @@ define_decoder_ids! {
     Zcode => ("zcode", true),
     Warp => ("warp", true),
     CodeBuddy => ("codebuddy", false),
+    Devin => ("devin", true),
     OmpParentHealth => ("omp-parent-health", true),
 }
 
